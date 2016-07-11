@@ -9,6 +9,7 @@ public class Launcher {
 	public static void main(String[] args){
 		new SpringApplicationBuilder() //
 		.sources(Launcher.class)//
+		.profiles("remote")
 		.run(args);
 	}
 }
