@@ -1,7 +1,6 @@
-env=local
 spring:
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/alexturcot/example-spring-cloud-config.git
+          uri: https://github.com/alexturcot/example-spring-cloud-config
