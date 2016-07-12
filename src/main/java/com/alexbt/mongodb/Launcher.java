@@ -12,6 +12,6 @@ public class Launcher {
 		new SpringApplicationBuilder() //
 		.sources(Launcher.class)//
 		.profiles("remote")
-		.run(args);
+		.run(args)	;
 	}
 }
