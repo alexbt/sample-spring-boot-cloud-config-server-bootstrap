@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/cloud")
 public class CloudController {
 
-	@Value("${env}")
+	@Value("${testproperty}")
 	private String env;
 	
 	@RequestMapping(method = RequestMethod.GET)
